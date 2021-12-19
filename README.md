@@ -295,4 +295,4 @@ public SocketNode(Socket socket2, LoggerRepository hierarchy2) {
 
 [![Alexander Brese](https://avatars.githubusercontent.com/u/24847484?s=50&v=4)](https://github.com/AlexanderBrese)
 
-[![Melanie Galip](https://avatars.githubusercontent.com/u/89995014?s=50&v=4](https://github.com/mela-glp)
+[![Melanie Galip](https://avatars.githubusercontent.com/u/89995014?s=50&v=4)](https://github.com/mela-glp)
