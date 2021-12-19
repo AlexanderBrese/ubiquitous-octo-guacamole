@@ -290,3 +290,9 @@ public SocketNode(Socket socket2, LoggerRepository hierarchy2) {
 
 * [Deprecate SerializedLayout and remove it as default.](https://git-wip-us.apache.org/repos/asf?p=logging-log4j2.git;h=7067734)
 * [Add class filtering to AbstractSocketServer](https://git-wip-us.apache.org/repos/asf?p=logging-log4j2.git;h=5dcc192)
+
+# Contributors
+
+[![Alexander Brese](https://avatars.githubusercontent.com/u/24847484?s=50&v=4)](https://github.com/AlexanderBrese)
+
+[![Melanie Galip](https://avatars.githubusercontent.com/u/89995014?s=50&v=4](https://github.com/mela-glp)
